@@ -1,0 +1,34 @@
+@media screen and (max-width:999px) {
+    .hero-section {
+        background-image: url('../images/mobilehero.png') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200vh;
+    }
+
+    #grid {
+        flex-direction: column;
+    }
+    .col-12{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+     .hero-section {
+        background-image: url('../images/mobilehero.png') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 75vh;
+    }
+    .shop-title h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:499px) {
+    .shop-title h1{
+        font-size: 2rem;
+    }
+}
