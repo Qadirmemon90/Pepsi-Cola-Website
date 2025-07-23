@@ -36,7 +36,7 @@ a {
     background-image: url('./assets/images/asset1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: auto;
     height: 90vh;
     border: none;
 }
